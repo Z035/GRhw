@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Notes</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 01 Oct 2024 20:49:09 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 01 Oct 2024 20:49:07 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Ch2_Boxes]]></title><description><![CDATA[ 
+ <br><br>The goal is to prove that frame S' is inertial iff it moves at a constant velocity relative to inertial frame S.<br>
+<br>To prove 'if  moves at constant  wrt , it is inertial' If  is inertial, an object stays at rest is always at rest in . If  moves at constant velocity wrt , then the object is moving at some velocity and will stay moving in that velocity. So  satisfy 1st law.
+<br>To prove the reverse (if  is inertial, it moves at constant  wrt ), the logic goes: Taken the two frames to be inertial as given. Hypothesize that there is mutual acceleration between two frames. An object stays at rest in 1 frame would have to be accelerating viewed from the other from. This suggest the given is false. Thus, the hypothesis is false. There cannot be a mutual acceleration between the two frames. Thus, the two frames can only move with relative velocity.
+<br><br><img alt="IMG_0948.jpeg" src="lib/media/img_0948.jpeg"><br><br>The first step is to verify that relativistic effect (e.g. length contraction) only take affect in the direction of motion. This can be done by proof by contradiction:<br>
+<br>Say a train on a track moving in  direction. Assume that Lorentz contraction happens in some  direction (say the direction of width)
+<br>An observer on the ground observe that as the train speed up, it shrink in width, so the train derail and the wheel fell in between the tracks.
+<br>Another observer on the train observe on the the rail contracts in width, the train derail and the wheel both fell out of the track.
+<br>The two things cannot happen together, thus relativistic effect in  and  directions are not legit. In fact, they have to agree on any distance measured in  plane ()
+......
+Solving the system of equation:<img alt="Pasted image 20240919194759.png" src="lib/media/pasted-image-20240919194759.png">
+<br><br>Inverse transformation is just the same matrix with  replaced by . One can prove there inverse relationship by multiplying the two matrix and see if the result is Identity.
+<img alt="Pasted image 20240919195645.png" src="lib/media/pasted-image-20240919195645.png" style="width: 400px; max-width: 100%;"><br><br>This is to show invariance interval can be inferred from Lorentz transformation:
+<img alt="Pasted image 20240919201220.png" src="lib/media/pasted-image-20240919201220.png"><br><br>Choosing a suitable lorentz transformation to prove that order of event can be different for space-like event.
+<img alt="IMG_3B4C5E7004D1-1 1.jpeg" src="lib/media/img_3b4c5e7004d1-1-1.jpeg" style="width: 500px; max-width: 100%;"><br><img alt="IMG_3B4C5E7004D1-2 1.jpeg" src="lib/media/img_3b4c5e7004d1-2-1.jpeg" style="width: 500px; max-width: 100%;"><br><img alt="IMG_3B4C5E7004D1-3 1.jpeg" src="lib/media/img_3b4c5e7004d1-3-1.jpeg" style="width: 500px; max-width: 100%;">
+For time-like and light-light events, the same logic can be used to analyze:
+<img alt="IMG_3B4C5E7004D1-4 1.jpeg" src="lib/media/img_3b4c5e7004d1-4-1.jpeg" style="width: 500px; max-width: 100%;"><br><br><img alt="Pasted image 20240919210920.png" src="lib/media/pasted-image-20240919210920.png">
+Another way of doing the same is Lorentz transform on a differential of proper interval , which gives . Which gives . here  would be the relative speed  times , which gives the relative displacement between two frames during .<br><br>Lorentz transform together with spacetime diagram gives the Lorentz contraction formula<img alt="IMG_4F9F764B290C-1.jpeg" src="lib/media/img_4f9f764b290c-1.jpeg">
+This gives the spacetime coordinate in  frame. From the spacetime diagram, the length  would simply be the x-axis of  axis in frame . Using the slope of  axis and coordinate , one can find coordinate of .<img alt="IMG_4F9F764B290C-2.jpeg" src="lib/media/img_4f9f764b290c-2.jpeg"><br><br>A particle moving in  direction is viewed from  and .  moves in  direction relative to  with a velocity . Express the particle velocity in x direction for  in terms of velocity in .<br>The process can be done by Lorentz transforming the differentials.
+<img alt="Pasted image 20240919232433.png" src="lib/media/pasted-image-20240919232433.png">]]></description><link>y4s2/relativity/problems/workbook_prob/ch2_boxes.html</link><guid isPermaLink="false">Y4S2/Relativity/Problems/Workbook_Prob/Ch2_Boxes.md</guid><pubDate>Sun, 22 Sep 2024 01:26:54 GMT</pubDate><enclosure url="lib/media/img_0948.jpeg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/img_0948.jpeg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Ch3_Boxes]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20240920123313.png" src="lib/media/pasted-image-20240920123313.png"><br><br><img alt="Pasted image 20240920124803.png" src="lib/media/pasted-image-20240920124803.png"><br><br><img alt="Pasted image 20240920125425.png" src="lib/media/pasted-image-20240920125425.png"><br><br><img alt="Pasted image 20240920132325.png" src="lib/media/pasted-image-20240920132325.png"><br>]]></description><link>y4s2/relativity/problems/workbook_prob/ch3_boxes.html</link><guid isPermaLink="false">Y4S2/Relativity/Problems/Workbook_Prob/Ch3_Boxes.md</guid><pubDate>Sun, 22 Sep 2024 01:26:54 GMT</pubDate><enclosure url="lib/media/pasted-image-20240920123313.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/pasted-image-20240920123313.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gabe - On vectors]]></title><description><![CDATA[ 
+ <br><br>Image the surface of a sphere. Take a point  on the surface and gradually zooming in onto , we see that the surface around  gets flatter and looks like a plane. At this scale, the scope of camera can be effectively approximated by a plane, with euclidean geometry. The plane has vectors that lives on it and  If we expand the size of the plane along its basis vectors, by doing so we constructed a tangent plane. This plane we constructed at  is the euclidean spacetime. And the sphere that euclidean spacetime approximates is the spacetime manifold.<br>The tangent space locally approximates the manifold. On a point  of the spacetime manifold  lives a tangent space . On a differentially small patch around , the tangent space  approximates the manifold. <br>
+<br>The manifold (sphere) It is locally  (plane)
+<br>For every patch on the manifold, you can find a transformation that transform the tangent plane of it to  the tangent plane of a neighbor patch.
+<br>The tangent space is a vector space. The manifold is not.  Draw an arrow tangent to the manifold. Take a non-differential step along the direction of the arrow, you would step out of the domain of the manifold. <br><br>The problem of defining a vector on a manifold arises because of two reasons:<br>
+<br>There is no global coordinate system on a manifold. A well-defined coordinate system allowed us to define vector the same way everywhere. For manifold, there lack a natural common definition of vector at different points. 
+<br>There is no inherent meaning of magnitude of vector. There is no meaningful way to compare vectors at different points. That means you cannot compare vectors across euclidean tangent space.
+<br>So the task is setup to address these problems and try to define a vector that is legit across the manifold.<br>]]></description><link>y4s2/relativity/schutz,-caroll,-and-gabe/gabe-on-vectors.html</link><guid isPermaLink="false">Y4S2/Relativity/Schutz, Caroll, and Gabe/Gabe - On vectors.md</guid><pubDate>Sun, 22 Sep 2024 01:26:54 GMT</pubDate></item><item><title><![CDATA[Ch1_Statement_of_GR]]></title><description><![CDATA[ 
+ <br><br>
+<br>Definition of mass in Newton's 2nd law. Definition of mass in Gravitational law
+<br>What is statement of geodesic hypothesis
+<br>Combined with geodesics, what phenomenon gives away the curvature of spacetime 
+<br><br>
+<br>Mass of an object in Newton's Gravitational law and Newton's 2nd law are different entity
+<br> in gravitational law represent how strong would the object couple to gravitational field.
+<br> in 2nd law represent how strong the object resist to accelerate when acted upon by a force
+<br><br>The geodesic hypothesis states:<br>
+<br> A free particle follows a geodesics in spacetime
+
+<br> Geodesic is the path of shortest distance (minimal) between two points
+<br> A particle is Free particle if it is only under effect of gravitional effects
+
+
+<br>The implication of geodesic hypothesis:<br>
+<br>On earth, a bullet and a ball moves from point A to B with different speed in two distinct parabola, two distinct path. If geodesic is unique between two point in space, shouln't they follow the same path? No, because the endpoint might be same location, but is different in time, thus two distinct endpoints for bullet and ball in spacetime.
+<br> and  would be essentially the same number
+<br>? The weight actually measures our tendency to resist acceleration instead of our couple strength to gravitational field
+<br>Earth's surface frame is not inertial. Objects in this frame are not free particles
+<br>Two free falling objects separated horizontally by a distance would come closer as they fall. This has two implications:
+
+<br>Variation in gravitational field is observable in an inertial frame.
+<br>Spacetime is curved. Two object all followed their geodesic. Drawing them out on a spacetime diagram would trace out two  geodesics that is curved.<img alt="Pasted image 20240915150048.png" src="lib/media/pasted-image-20240915150048.png">
+
+
+<br>The curved spacetime leads to the development of Einstein's Equation. Which states that the curvature of spacetime(as a tensor) is related to the density of matter and energy and their flow. Which leads to the main statement of general relativity:<br>
+<br> Spacetime tells matter how to move. Matter tells spacetime how to curve
+]]></description><link>y4s2/relativity/workbook/ch1_statement_of_gr.html</link><guid isPermaLink="false">Y4S2/Relativity/Workbook/Ch1_Statement_of_GR.md</guid><pubDate>Sun, 22 Sep 2024 01:26:54 GMT</pubDate><enclosure url="lib/media/pasted-image-20240915150048.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/pasted-image-20240915150048.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Ch2_SR_in_a_Nutshell]]></title><description><![CDATA[ 
+ <br><br>
+<br> An observer is the set of synchronized grid of clocks that records all events
+<br> A frame is inertial in a region of spacetime where, throughout that region, Newton's 1st law apply.
+
+<br>The need for a region is due to the harsh reality that there is no place in the universe that is truly inertial, with flat spacetime.
+<br>For example, a spacelab in near earth orbit is not inertial if expanded to include earth. (because it would be accelerating towards you at ) This frame would only be inertial in the vicinity of spacelab, in a short time.
+
+
+<br>The Principle of Relativity:<br>
+<br> The physics laws are the same inside all inertial reference frame
+
+<br>They physical values might be different (velocity, energy...), but these values obey the same law.
+
+
+<br>Lorentz Transform:<br>
+<br>Lorentz transform acts as a transform of the interval 4-vector, while also a coordinate transform between two frames that shares origin
+<br>Lorentz transform is a hyperbolic 'rotation'
+<br>The inverse transformation is acquired by reversing the sign of , which just negate the velocity.
+]]></description><link>y4s2/relativity/workbook/ch2_sr_in_a_nutshell.html</link><guid isPermaLink="false">Y4S2/Relativity/Workbook/Ch2_SR_in_a_Nutshell.md</guid><pubDate>Sun, 22 Sep 2024 01:26:54 GMT</pubDate></item><item><title><![CDATA[Ch3_Four_Vector]]></title><description><![CDATA[ 
+ <br>test2
+Every 4-vector  have a corresponding displacement vector  that is parallel to it.  is parallel to  in all frames.<br>Some frame independent quantities:<br>
+<br> The dot product between two 4-vector is defined:
+<br> The square magnitude of a 4-vector is defined:
+<br>The differential squared gives the usual invariance of interval:
+<br> A scalar remains invariance across reference frames (invariance under Lorentz transform)
+<br><br>
+<br> 4-velocity is defined as the rate of change of 4-position of a particle with respect to the proper time. denoted by : 
+
+<br>In contrast, the 3-velocity of the particle in its proper frame is called the ordinary velocity denoted by , with magnitude .
+
+
+<br> 4-momentum 
+]]></description><link>y4s2/relativity/workbook/ch3_four_vector.html</link><guid isPermaLink="false">Y4S2/Relativity/Workbook/Ch3_Four_Vector.md</guid><pubDate>Sun, 22 Sep 2024 01:26:54 GMT</pubDate></item></channel></rss>
